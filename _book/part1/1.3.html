@@ -1,0 +1,379 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Gitbook安装插件 · 白马笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="White horse">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bottom-navigation/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.4.html" />
+    
+    
+    <link rel="prev" href="1.2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    白马学习笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Gitbook使用笔记
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    Gitbook的安装和初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    Gitbook的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    Gitbook安装插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    Gitbook部署到github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Gitbook安装插件</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="gitbook&#x5B89;&#x88C5;&#x63D2;&#x4EF6;">Gitbook&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</h2>
+<p>Gitbook&#x652F;&#x6301;&#x5F88;&#x591A;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;<a href="https://www.npmjs.com/" target="_blank">NPM</a>&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;</p>
+<h3 id="&#x6298;&#x53E0;&#x76EE;&#x5F55;">&#x6298;&#x53E0;&#x76EE;&#x5F55;</h3>
+<ol>
+<li><p>&#x5148;&#x5728;&#x7535;&#x5B50;&#x4E66;&#x6839;&#x76EE;&#x5F55;&#x91CC;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;book.json&#x6587;&#x4EF6;&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>{
+&quot;plugins&quot;:[&quot;expandable-chapters&quot;]
+}
+</code></pre></li>
+<li><p>&#x628A;book.json&#x5728;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x6267;&#x884C; <code>gitbook install</code>&#x547D;&#x4EE4;&#xFF0C;&#x4F1A;&#x751F;&#x6210;node_modules&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x914D;&#x7F6E;&#x7684;&#x63D2;&#x4EF6;&#x4E5F;&#x4F1A;&#x81EA;&#x52A8;&#x4E0B;&#x8F7D;&#x5230;&#x8BE5;&#x76EE;&#x5F55;&#x4E0B;&#x3002;</p>
+</li>
+<li><p>&#x5728;SUMMARY.md&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;&#x76EE;&#x5F55;&#x65F6;&#x76F4;&#x63A5;&#x914D;&#x7F6E;&#x76EE;&#x5F55;&#x540D;&#x79F0;&#x5373;&#x53EF;&#xFF0C;&#x4E0D;&#x7528;&#x914D;&#x7F6E;&#x8FDE;&#x63A5;&#x5730;&#x5740;&#xFF0C;&#x5982;&#x4E0B;:<code>[&#x76EE;&#x5F55;&#x540D;&#x79F0; ]()</code> &#x3002;</p>
+</li>
+</ol>
+<h3 id="&#x6350;&#x8D60;&#x63D2;&#x4EF6;">&#x6350;&#x8D60;&#x63D2;&#x4EF6;</h3>
+<p>1.Npm&#x5B98;&#x7F51;&#x641C;&#x7D22;gitbook-plugin-donate&#x53EF;&#x4EE5;&#x627E;&#x5230;&#x63D2;&#x4EF6;&#x3002;</p>
+<p>2.&#x590D;&#x5236;&#x4E0B;&#x9762;&#x4EE3;&#x7801;&#x5230;book.json&#x4E2D;&#x3002;&#x4EE3;&#x7801;&#x4E2D;&#x5305;&#x542B;&#x6298;&#x53E0;&#x76EE;&#x5F55;&#x63D2;&#x4EF6;&#x548C;&#x6350;&#x8D60;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;&#x8BE5;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;&#x6350;&#x8D60;&#x63D2;&#x4EF6;&#x3002;&#x4EE3;&#x7801;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x53EF;&#x4EE5;&#x914D;&#x7F6E;title&#xFF0C;&#x7535;&#x5B50;&#x4E66;&#x63CF;&#x8FF0;&#xFF0C;&#x4F5C;&#x8005;&#x548C;&#x8BED;&#x8A00;&#x3002;&#x4E3B;&#x8981;&#x628A;&#x641C;&#x7D22;&#x6846;&#x548C;&#x672C;&#x4E66;&#x4F7F;&#x7528;gitbook&#x53D1;&#x5E03;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E3A;&#x4E2D;&#x6587;&#x663E;&#x793A;&#x3002;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#x4EE3;&#x7801;&#x4E3A;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#x7684;&#x540D;&#x79F0;&#x3002;&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#x4EE3;&#x7801;&#x4E3A;&#x63D2;&#x4EF6;&#x7684;&#x914D;&#x7F6E;&#x9009;&#x9879;&#x3002;&#x63D2;&#x4EF6;&#x548C;&#x914D;&#x7F6E;&#x9009;&#x9879;&#x5728;NPM&#x5B98;&#x7F51;&#x6709;&#xFF0C;&#x590D;&#x5236;&#x7C98;&#x5E16;&#x5C31;&#x884C;&#x4E86;&#x3002;</p>
+<pre><code>{
+    &quot;title&quot;: &quot;&#x767D;&#x9A6C;&#x7B14;&#x8BB0;&quot;,
+    &quot;description&quot;: &quot;&#x5C0F;&#x767D;&#x7684;&#x6210;&#x957F;&#x7B14;&#x8BB0;&quot;,
+    &quot;author&quot;: &quot;White horse&quot;,
+    &quot;language&quot;: &quot;zh-hans&quot;,
+    &quot;root&quot;: &quot;.&quot;,
+
+
+    &quot;plugins&quot;: [
+        &quot;donate&quot;,
+        &quot;expandable-chapters&quot;
+    ],
+
+
+    &quot;pluginsConfig&quot;: {
+        &quot;donate&quot;: {
+            &quot;wechat&quot;: &quot;&#x5FAE;&#x4FE1;&#x6253;&#x8D4F;&#x7801;&#x5B58;&#x653E;&#x8DEF;&#x5F84; &#x4F8B;&#x5982;: /image/weixin.jpg&quot;,
+            &quot;alipay&quot;: &quot;&#x652F;&#x4ED8;&#x5B9D;&#x6253;&#x8D4F;&#x7801;&#x5B58;&#x653E;&#x8DEF;&#x5F84;&quot;,
+            &quot;title&quot;: &quot;&quot;,
+            &quot;button&quot;: &quot;&#x6253;&#x8D4F;&quot;,
+            &quot;alipayText&quot;: &quot;&#x652F;&#x4ED8;&#x5B9D;&#x6253;&#x8D4F;&quot;,
+            &quot;wechatText&quot;: &quot;&#x5FAE;&#x4FE1;&#x6253;&#x8D4F;&quot;
+        }
+
+    }
+}
+</code></pre><p>3.&#x6267;&#x884C;  <code>gitbook install</code>&#x547D;&#x4EE4;&#xFF0C;&#x4F1A;&#x751F;&#x6210;node_modules&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x914D;&#x7F6E;&#x7684;&#x63D2;&#x4EF6;&#x4E5F;&#x4F1A;&#x81EA;&#x52A8;&#x4E0B;&#x8F7D;&#x5230;&#x8BE5;&#x76EE;&#x5F55;&#x4E0B;&#x3002;</p>
+<h2 id="&#x5B66;&#x4E60;&#x89C6;&#x9891;">&#x5B66;&#x4E60;&#x89C6;&#x9891;</h2>
+<iframe width="720" height="418" src="//player.bilibili.com/player.html?aid=288205725&amp;bvid=BV1sf4y1e7AY&amp;cid=267790402&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<div class="navPagesContainer"> <div class="navPagesLinks"> <a class="card cardPrevious"> <div class="cardIcon"> <i class="fa fa-angle-left"></i> </div> <div class="cardPreviousBody"> <div class="cardHint"> <span>Previous</span> </div> <div class="cardTitle"> <span>Gitbook&#x7684;&#x4F7F;&#x7528;</span> </div> </div> </a> <a class="card cardNext"> <div class="cardNextBody"> <div class="cardHint"> <span>Next</span> </div> <div class="cardTitle"> <span>Gitbook&#x90E8;&#x7F72;&#x5230;github</span> </div> </div> <div class="cardIcon"> <i class="fa fa-angle-right"></i> </div> </a> </div> </div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.2.html" class="navigation navigation-prev " aria-label="Previous page: Gitbook的使用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.4.html" class="navigation navigation-next " aria-label="Next page: Gitbook部署到github">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Gitbook安装插件","level":"1.2.3","depth":2,"next":{"title":"Gitbook部署到github","level":"1.2.4","depth":2,"path":"part1/1.4.md","ref":"part1/1.4.md","articles":[]},"previous":{"title":"Gitbook的使用","level":"1.2.2","depth":2,"path":"part1/1.2.md","ref":"part1/1.2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["bottom-navigation","donate","expandable-chapters","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"/image/zhifubao.jpg","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"/image/weixin.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"bottom-navigation":{"borderColor":"#3884FE","iconColor":"#3884FE","navNextSelector":null,"navPrevSelector":null,"pageInnerWidth":null,"titleColor":"#3884FE"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"White horse","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"白马笔记","language":"zh-hans","gitbook":"*","description":"小白的成长笔记"},"file":{"path":"part1/1.3.md","mtime":"2020-12-20T04:55:11.230Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-20T06:45:49.033Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-bottom-navigation/stylish.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-bottom-navigation/href.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

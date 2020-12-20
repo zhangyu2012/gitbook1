@@ -1,0 +1,32 @@
+{
+    "title": "白马笔记",
+    "description": "小白的成长笔记",
+    "author": "White horse",
+    "language": "zh-hans",
+    "root": ".",
+
+
+    "plugins": [
+        "bottom-navigation",
+		"donate",
+        "expandable-chapters"
+    ],
+
+
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "/image/weixin.jpg",
+            "alipay": "/image/zhifubao.jpg",
+            "title": "",
+            "button": "打赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+		"bottom-navigation": {
+			"iconColor": "#3884FE",
+			"titleColor": "#3884FE",
+			"borderColor": "#3884FE"
+		}
+       
+    }
+}
