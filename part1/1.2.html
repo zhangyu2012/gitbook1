@@ -1,0 +1,434 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Gitbook的使用 · 白马笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="White horse">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bottom-navigation/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.3.html" />
+    
+    
+    <link rel="prev" href="1.1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    白马学习笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Gitbook使用笔记
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    Gitbook的安装和初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    Gitbook的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    Gitbook安装插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4.html">
+            
+                <a href="1.4.html">
+            
+                    
+                    Gitbook部署到github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Gitbook的使用</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gitbook&#x7684;&#x4F7F;&#x7528;">Gitbook&#x7684;&#x4F7F;&#x7528;</h1>
+<h3 id="gitbook&#x7684;&#x67B6;&#x6784;">Gitbook&#x7684;&#x67B6;&#x6784;</h3>
+<ul>
+<li><p>SUMMARY.md</p>
+<p>  SUMMARY.md &#x662F;&#x4E66;&#x7C4D;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;</p>
+</li>
+<li><p>README.md</p>
+<p>README.md &#x662F;&#x4E66;&#x7C4D;&#x7684;&#x5185;&#x5BB9;
+&#x6211;&#x4EEC;&#x53EF;&#x7528;&#x7528;Markdown&#x8FDB;&#x884C;&#x7F16;&#x8F91;
+Markdown&#x8BED;&#x6CD5;</p>
+</li>
+</ul>
+<h3 id="&#x5185;&#x5BB9;&#x7684;&#x7F16;&#x8F91;">&#x5185;&#x5BB9;&#x7684;&#x7F16;&#x8F91;</h3>
+<h5 id="&#x6587;&#x672C;&#x7684;&#x8F93;&#x5165;">&#x6587;&#x672C;&#x7684;&#x8F93;&#x5165;</h5>
+<p>  <strong>&#x6807;&#x9898;</strong></p>
+<p>  &#x5728;&#x60F3;&#x8981;&#x8BBE;&#x7F6E;&#x4E3A;&#x6807;&#x9898;&#x7684;&#x6587;&#x5B57;&#x524D;&#x9762;&#x52A0;#&#x6765;&#x8868;&#x793A;</p>
+<p>  &#x4E00;&#x4E2A;#&#x662F;&#x4E00;&#x7EA7;&#x6807;&#x9898;&#xFF0C;&#x4E8C;&#x4E2A;#&#x662F;&#x4E8C;&#x7EA7;&#x6807;&#x9898;&#xFF0C;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;&#x3002;&#x652F;&#x6301;&#x516D;&#x7EA7;&#x6807;&#x9898;&#x3002;</p>
+<p>  &#x6CE8;&#xFF1A;&#x6807;&#x51C6;&#x8BED;&#x6CD5;&#x4E00;&#x822C;&#x5728;#&#x540E;&#x8DDF;&#x4E2A;&#x7A7A;&#x683C;&#x518D;&#x5199;&#x6587;&#x5B57;</p>
+<p>  <strong>&#x5B57;&#x4F53;</strong></p>
+<p>  &#x52A0;&#x7C97;
+  &#x8981;&#x52A0;&#x7C97;&#x7684;&#x6587;&#x5B57;&#x5DE6;&#x53F3;&#x5206;&#x522B;&#x7528;&#x4E24;&#x4E2A;*&#x53F7;&#x5305;&#x8D77;&#x6765;</p>
+<p>  &#x659C;&#x4F53;
+  &#x8981;&#x503E;&#x659C;&#x7684;&#x6587;&#x5B57;&#x5DE6;&#x53F3;&#x5206;&#x522B;&#x7528;&#x4E00;&#x4E2A;*&#x53F7;&#x5305;&#x8D77;&#x6765;</p>
+<p>  &#x659C;&#x4F53;&#x52A0;&#x7C97;
+  &#x8981;&#x503E;&#x659C;&#x548C;&#x52A0;&#x7C97;&#x7684;&#x6587;&#x5B57;&#x5DE6;&#x53F3;&#x5206;&#x522B;&#x7528;&#x4E09;&#x4E2A;*&#x53F7;&#x5305;&#x8D77;&#x6765;</p>
+<p>  &#x5220;&#x9664;&#x7EBF;
+  &#x8981;&#x52A0;&#x5220;&#x9664;&#x7EBF;&#x7684;&#x6587;&#x5B57;&#x5DE6;&#x53F3;&#x5206;&#x522B;&#x7528;&#x4E24;&#x4E2A;~~&#x53F7;&#x5305;&#x8D77;&#x6765;</p>
+<p>  &#x5F15;&#x7528;
+  &#x5728;&#x5F15;&#x7528;&#x7684;&#x6587;&#x5B57;&#x524D;&#x52A0;&gt;&#x5373;&#x53EF;&#x3002;&#x5F15;&#x7528;&#x4E5F;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;&#xFF0C;&#x5982;&#x52A0;&#x4E24;&#x4E2A;&gt;&gt;&#x4E09;&#x4E2A;&gt;&gt;&gt;
+  n&#x4E2A;...</p>
+<p>  &#x5206;&#x5272;&#x7EBF;
+  &#x4E09;&#x4E2A;&#x6216;&#x8005;&#x4E09;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684; - &#x6216;&#x8005; * &#x90FD;&#x53EF;&#x4EE5;&#x3002;</p>
+<p>  <strong>&#x5217;&#x8868;</strong></p>
+<p>  &#x65E0;&#x5E8F;&#x5217;&#x8868;
+  &#x8BED;&#x6CD5;&#xFF1A;
+  &#x65E0;&#x5E8F;&#x5217;&#x8868;&#x7528; - + * &#x4EFB;&#x4F55;&#x4E00;&#x79CD;&#x90FD;&#x53EF;&#x4EE5;</p>
+<ul>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li><p>&#x5217;&#x8868;&#x5185;&#x5BB9;</p>
+<p>&#x6CE8;&#x610F;&#xFF1A;- + * &#x8DDF;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x90FD;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;</p>
+<p>&#x6709;&#x5E8F;&#x5217;&#x8868;
+&#x8BED;&#x6CD5;&#xFF1A;
+&#x6570;&#x5B57;&#x52A0;&#x70B9;</p>
+</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;
+&#x6CE8;&#x610F;&#xFF1A;&#x5E8F;&#x53F7;&#x8DDF;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x8981;&#x6709;&#x7A7A;&#x683C;</li>
+</ul>
+<p><strong> &#x8868;&#x683C;</strong></p>
+<p>  &#x8BED;&#x6CD5;&#xFF1A;</p>
+<p>  &#x8868;&#x5934;|&#x8868;&#x5934;|&#x8868;&#x5934;</p>
+<p>  ---|:--:|---:</p>
+<p>  &#x5185;&#x5BB9;|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;</p>
+<p>  &#x5185;&#x5BB9;|&#x5185;&#x5BB9;|&#x5185;&#x5BB9;</p>
+<p>  &#x7B2C;&#x4E8C;&#x884C;&#x5206;&#x5272;&#x8868;&#x5934;&#x548C;&#x5185;&#x5BB9;&#x3002;
+  -&#x6709;&#x4E00;&#x4E2A;&#x5C31;&#x884C;&#xFF0C;&#x4E3A;&#x4E86;&#x5BF9;&#x9F50;&#xFF0C;&#x591A;&#x52A0;&#x4E86;&#x51E0;&#x4E2A;</p>
+<p>  &#x6587;&#x5B57;&#x9ED8;&#x8BA4;&#x5C45;&#x5DE6;</p>
+<p>  -&#x4E24;&#x8FB9;&#x52A0;&#xFF1A;&#x8868;&#x793A;&#x6587;&#x5B57;&#x5C45;&#x4E2D;</p>
+<p>  -&#x53F3;&#x8FB9;&#x52A0;&#xFF1A;&#x8868;&#x793A;&#x6587;&#x5B57;&#x5C45;&#x53F3;</p>
+<p>  &#x6CE8;&#xFF1A;&#x539F;&#x751F;&#x7684;&#x8BED;&#x6CD5;&#x4E24;&#x8FB9;&#x90FD;&#x8981;&#x7528; | &#x5305;&#x8D77;&#x6765;&#x3002;&#x6B64;&#x5904;&#x7701;&#x7565;</p>
+<p> <strong>&#x4EE3;&#x7801;</strong></p>
+<p>  &#x8BED;&#x6CD5;&#xFF1A;</p>
+<p>   &#x5355;&#x884C;&#x4EE3;&#x7801;&#xFF1A;&#x4EE3;&#x7801;&#x4E4B;&#x95F4;&#x5206;&#x522B;&#x7528;&#x4E00;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x8D77;&#x6765;</p>
+<pre><code>`&#x4EE3;&#x7801;&#x5185;&#x5BB9;`
+</code></pre><p>  &#x4EE3;&#x7801;&#x5757;&#xFF1A;&#x4EE3;&#x7801;&#x4E4B;&#x95F4;&#x5206;&#x522B;&#x7528;&#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x8D77;&#x6765;&#xFF0C;&#x4E14;&#x4E24;&#x8FB9;&#x7684;&#x53CD;&#x5F15;&#x53F7;&#x5355;&#x72EC;&#x5360;&#x4E00;&#x884C;</p>
+<pre><code>```
+&#x4EE3;&#x7801;...
+&#x4EE3;&#x7801;...
+&#x4EE3;&#x7801;...
+```
+</code></pre><p> <strong> &#x6D41;&#x7A0B;&#x56FE;</strong></p>
+<pre><code class="lang-flow">  st=&gt;start: &#x5F00;&#x59CB;
+  op=&gt;operation: My Operation
+  cond=&gt;condition: Yes or No?
+  e=&gt;end
+  st-&gt;op-&gt;cond
+  cond(yes)-&gt;e
+  cond(no)-&gt;op
+  &amp;
+</code></pre>
+<h5 id="&#x94FE;&#x63A5;&#x7684;&#x63D2;&#x5165;">&#x94FE;&#x63A5;&#x7684;&#x63D2;&#x5165;</h5>
+<p> <strong> &#x8D85;&#x94FE;&#x63A5;</strong></p>
+<p>  &#x8BED;&#x6CD5;&#xFF1A;
+  <code>[&#x8D85;&#x94FE;&#x63A5;&#x540D;](&#x8D85;&#x94FE;&#x63A5;&#x5730;&#x5740; &quot;&#x8D85;&#x94FE;&#x63A5;title&quot;)</code>
+  title&#x53EF;&#x52A0;&#x53EF;&#x4E0D;&#x52A0;</p>
+<h5 id="&#x56FE;&#x7247;&#x7684;&#x63D2;&#x5165;">&#x56FE;&#x7247;&#x7684;&#x63D2;&#x5165;</h5>
+<p>  <strong>&#x56FE;&#x7247;</strong></p>
+<p>  &#x8BED;&#x6CD5;&#xFF1A;
+  <code>![&#x56FE;&#x7247;alt](&#x56FE;&#x7247;&#x5730;&#x5740; &apos;&apos;&#x56FE;&#x7247;title&apos;&apos;)</code></p>
+<p>  &#x56FE;&#x7247;alt&#x5C31;&#x662F;&#x663E;&#x793A;&#x5728;&#x56FE;&#x7247;&#x4E0B;&#x9762;&#x7684;&#x6587;&#x5B57;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x5BF9;&#x56FE;&#x7247;&#x5185;&#x5BB9;&#x7684;&#x89E3;&#x91CA;&#x3002;
+  &#x56FE;&#x7247;title&#x662F;&#x56FE;&#x7247;&#x7684;&#x6807;&#x9898;&#xFF0C;&#x5F53;&#x9F20;&#x6807;&#x79FB;&#x5230;&#x56FE;&#x7247;&#x4E0A;&#x65F6;&#x663E;&#x793A;&#x7684;&#x5185;&#x5BB9;&#x3002;title&#x53EF;&#x52A0;&#x53EF;&#x4E0D;&#x52A0;</p>
+<h5 id="&#x89C6;&#x9891;&#x7684;&#x63D2;&#x5165;">&#x89C6;&#x9891;&#x7684;&#x63D2;&#x5165;</h5>
+<p>  <strong>&#x89C6;&#x9891;</strong></p>
+<p>  &#x8BED;&#x6CD5;&#xFF1A;</p>
+<p>  <code>&lt;iframe width=&quot;720&quot; height=&quot;418&quot; src=&quot;//player.bilibili.com/player.html?aid=755693579&amp;bvid=BV1R64y1f7zM&amp;cid=267216417&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</code>
+  &#x89C6;&#x9891;&#x5F15;&#x7528;&#x5728;&#x54D4;&#x54E9;&#x54D4;&#x54E9;&#xFF0C;&#x5C5E;&#x6027;width&#x548C;height&#x8C03;&#x6574;&#x89C6;&#x9891;&#x5BBD;&#x9AD8;</p>
+<h2 id="&#x5B66;&#x4E60;&#x89C6;&#x9891;">&#x5B66;&#x4E60;&#x89C6;&#x9891;</h2>
+<iframe width="720" height="418" src="//player.bilibili.com/player.html?aid=543229094&amp;bvid=BV1Ri4y1c7kT&amp;cid=267309867&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+<div class="navPagesContainer"> <div class="navPagesLinks"> <a class="card cardPrevious"> <div class="cardIcon"> <i class="fa fa-angle-left"></i> </div> <div class="cardPreviousBody"> <div class="cardHint"> <span>Previous</span> </div> <div class="cardTitle"> <span>Gitbook&#x7684;&#x5B89;&#x88C5;&#x548C;&#x521D;&#x59CB;&#x5316;</span> </div> </div> </a> <a class="card cardNext"> <div class="cardNextBody"> <div class="cardHint"> <span>Next</span> </div> <div class="cardTitle"> <span>Gitbook&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</span> </div> </div> <div class="cardIcon"> <i class="fa fa-angle-right"></i> </div> </a> </div> </div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.1.html" class="navigation navigation-prev " aria-label="Previous page: Gitbook的安装和初始化">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.3.html" class="navigation navigation-next " aria-label="Next page: Gitbook安装插件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Gitbook的使用","level":"1.2.2","depth":2,"next":{"title":"Gitbook安装插件","level":"1.2.3","depth":2,"path":"part1/1.3.md","ref":"part1/1.3.md","articles":[]},"previous":{"title":"Gitbook的安装和初始化","level":"1.2.1","depth":2,"path":"part1/1.1.md","ref":"part1/1.1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["bottom-navigation","donate","expandable-chapters","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"/image/zhifubao.jpg","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"/image/weixin.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"bottom-navigation":{"borderColor":"#3884FE","iconColor":"#3884FE","navNextSelector":null,"navPrevSelector":null,"pageInnerWidth":null,"titleColor":"#3884FE"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"White horse","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"白马笔记","language":"zh-hans","gitbook":"*","description":"小白的成长笔记"},"file":{"path":"part1/1.2.md","mtime":"2020-12-20T04:55:11.228Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-20T06:45:49.033Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-bottom-navigation/stylish.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-bottom-navigation/href.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
